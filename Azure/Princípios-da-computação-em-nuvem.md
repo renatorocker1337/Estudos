@@ -31,7 +31,7 @@ usuários finais na forma de preços mais baixos do que você poderia conseguir 
 de hardware e infraestrutura para iniciar ou expandir um negócio. A computação em nuvem oferece serviços aos clientes sem custos iniciais nem tempo
 de instalação de equipamentos significativos.</p>
 
-<h1>Essas duas abordagens de investimento são conhecidas como:</h1>
+<h2>Essas duas abordagens de investimento são conhecidas como:</h2>
 
 <h1>CapEx</h1> <p>( despesas de capital): CapEx é o gasto de dinheiro antecipado na infraestrutura física e, em seguida, a dedução dessa despesa na fatura de imposto
 ao longo do tempo. CapEx é um custo antecipado, com um valor que é reduzido ao longo do tempo.</p>
@@ -41,7 +41,7 @@ há nenhum custo inicial. Você paga por um serviço ou um produto conforme o us
 
 <h1>Custos CapEx de computação</h1>
 
-Um datacenter local típico inclui custos como:
+<h2>Um datacenter local típico inclui custos como:</h2>
 
 <h1>Custos de servidores</h1>
 
@@ -68,32 +68,32 @@ Esse é o custo para fazer backup, copiar ou arquivar dados. As opções podem i
 nuvem. Há um custo inicial para o hardware e custos adicionais para a manutenção do backup e dos itens consumíveis, como
 as fitas.
 
-Custos de recuperação de desastre e continuidade da organização
+<h1>Custos de recuperação de desastre e continuidade da organização</h1>
 
 Junto com a redundância e a tolerância a falhas do servidor, você precisa planejar a recuperação de desastre e a
 continuidade das operações. Seu plano deve consistir na criação de um site de recuperação de desastre. Ele também pode
 incluir geradores de backup. A maior parte deles são custos iniciais, especialmente se você criar um site de recuperação
 de desastre, mas há um custo contínuo adicional para infraestrutura em manutenção.
 
-Custos da infraestrutura do datacenter
+<h1>Custos da infraestrutura do datacenter</h1>
 
 Esses são os custos para equipamentos de construção, bem como custos futuros de renovação e reforma que poderão surgir
 conforme as demandas crescerem. Além disso, essa infraestrutura incorre em despesas operacionais de eletricidade, área
 útil, refrigeração e manutenção das instalações.
 
-Pessoal técnico
+<h1>Pessoal técnico</h1>
 
 Embora não seja uma despesa de capital, o pessoal necessário para trabalhar em sua infraestrutura é específico para 
 datacenters locais. Você precisará ter o conhecimento técnico e a força de trabalho para instalar, implantar e gerenciar
 os sistemas no datacenter e no site de recuperação de desastre.
 
-Custos OpEx da computação em nuvem
+<h1>Custos OpEx da computação em nuvem</h1>
 
 Com a computação em nuvem, muitos dos custos associados a um datacenter local são transferidos para o provedor de
 serviços. Em vez de considerar os custos do hardware físico e do datacenter, a computação em nuvem tem um conjunto de
 custos diferente. Para fins de contabilidade, todos estes custos são despesas operacionais.
 
-Arrendar software e recursos personalizados.
+<h1>Arrendar software e recursos personalizados.</h1>
 
 O uso de um modelo de pagamento conforme o uso exige o gerenciamento ativo das assinaturas para garantir que os usuários
 não usem os serviços indevidamente e que as contas provisionadas estejam sendo utilizadas e não desperdiçadas. Assim que
@@ -106,20 +106,20 @@ A computação em nuvem pode gerar uma cobrança de várias maneiras, como o nú
 No entanto, as categorias de cobrança também podem incluir RAM alocada, IOPS(operação de E/S por segundo) e espaço de
 armazenamento. Planeje o tráfego de backup e de recuperação de desastre para determinar a largura de banda necessária.
 
-Cobrança no nível do usuário ou da organização.
+<h1>Cobrança no nível do usuário ou da organização.</h1>
 
 O modelo de assinatura(pagamento por uso) é um método de cobrança de computação projetado para organizações e usuários.
 A organização ou o usuário é cobrado pelos serviços usados, geralmente de forma recorrente. Você pode dimensionar,
 personalizar e provisionar recursos de computação, incluindo plataformas de desenvolvimento, software e armazenamento.
 Por exemplo, ao usar um serviço de nuvem dedicado, você poderá pagar com base no uso e no hardware do servidor.
 
-Benefícios do CapEx
+<h1>Benefícios do CapEx</h1>
 
 Com as despesas de capital, você planeja suas despesas no início de um projeto ou um período de orçamento. Os custos são
 fixos, o que significa que você sabe exatamento quanto está sendo gasto. Isso é interessante quando você precisa prever
 as despesas antes do início de um projeto devido a um orçamento limitado.
 
-Benefícios do OpEx
+<h1>Benefícios do OpEx</h1>
 
 O crescimento e a demanda podem ser imprevisíveis e podem superar a expectativa, o que é um desafio para o modelo de CapEx,
 conforme mostrado no grafo a seguir.

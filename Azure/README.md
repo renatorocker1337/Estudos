@@ -1,0 +1,1 @@
+O objetivo dessa pasta relacionada aos estudos de Azure, é organizar por tópicos as documentações referente aos estudos de Cloud para a prova de certificação AZ-900.
