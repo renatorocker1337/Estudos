@@ -43,7 +43,7 @@ há nenhum custo inicial. Você paga por um serviço ou um produto conforme o us
 
 Um datacenter local típico inclui custos como:
 
-<h1>ustos de servidores</h1>
+<h1>Custos de servidores</h1>
 
 <p>Essa área inclui todos os componentes de hardware e o custo do suporte a eles. Ao comprar servidores, lembre-se de projetar a tolerância a falhas e a 
 redundância, como clustering de servidores, alimentação redundante e nobreak.
