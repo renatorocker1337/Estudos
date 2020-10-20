@@ -123,3 +123,5 @@ as despesas antes do início de um projeto devido a um orçamento limitado.
 
 O crescimento e a demanda podem ser imprevisíveis e podem superar a expectativa, o que é um desafio para o modelo de CapEx,
 conforme mostrado no grafo a seguir.
+
+![grafo](https://github.com/renatorocker1337/Estudos/blob/main/grafo%20despesas%20capex%20e%20opex.png)
