@@ -129,3 +129,100 @@ conforme mostrado no grafo a seguir.
 Com o modelo de OpEx, as empresas que desejam experimentar um novo produto ou serviço não precisam investir em equipamentos. Em vez disso, elas pagam mais ou menos pela infraestrutura, conforme necessário.
 
 O OpEx é particularmente interessante se a demanda flutua ou é desconhecida. Os serviços de nuvem são geralmente considerados ágeis. A agilidade da nuvem é a capacidade de alterar rapidamente uma infraestrutura de TI para adaptá-la às mudanças nas necessidades dos negócios. Por exemplo, se há um pico do serviço em um mês, você pode dimensioná-lo de acordo com a demanda e pagar uma fatura maior nesse mês. Se no mês seguinte a demanda diminui, você pode reduzir os recursos usados e pagar menos. Essa agilidade permite que você gerencie seus custos dinamicamente, otimizando os gastos de acordo com as mudanças dos requisitos.
+
+#Modelos de implantação em nuvem
+
+Há três modelos diferentes de implantanção na nuvem. Um modelo de implantação na nuvem define o local
+em que os dados são armazenados e como os clientes interagem com eles - como eles o acessam e em qual local os aplicativos são executos? Ele também depende do quanto de sua própria infraestrutura você deseja ou precisa gerenciar.
+
+#Nuvem pública
+
+Esse é o modelo de implantação mais comum. Nesse caso, você não tem nenhum hardware local que precisa ser gerenciado ou atualizado: tudo é executado no hardware do provedor de nuvem. Em alguns casos, você pode reduzir custos adicionais por meio do compartilhamento de recursos de computação com outros usuários da nuvem.
+
+Os negócios podem usar vários provedores de nuvem publica de escala variável. O Microsoft Azure é um exemplo de provedor de nuvem publica.
+
+#Vantagens
+
+    -> Agilidade/alta escalabilidade - você não precisa comprar um novo servidor para dimensionar
+
+    ->Preço pago conforme o uso - você paga apenas pelo que usa, sem custos de CapEx
+
+    ->Você não é responsável pela manutenção nem pelas atualizações de hardware.
+
+    ->Mínimo de conhecimento técnico para configurar e usar - você pode aproveitar as habilidades e a competência do provedor de nuvem para garantir que as cargas de trabalho estejam sempre seguras, protegidas e altamente disponíves.
+
+Um cenário de caso de uso comum é implantar um aplicativo Web ou um site de blog no hardware e nos recursos que pertencem a um provedor de nuvem. O uso de uma nuvem pública nesse cenário permite que os usuários da nuvem coloquem o site ou o blog rapidamente online, em seguinda, concentrem-se em manter o site sem precisar se preocupar com a compra, o gerenciamento ou a manutenção do hardware no qual ele é executado.
+
+#Desvantagens
+
+Nem todos os cenários são adequados para a nuvem pública. Aqui estão algumas desvantagens a serem consideradas:
+
+    -> Pode haver requisitos de segurança específicos que não podem ser atendidos com o uso da nuvem pública
+
+    -> Pode haver políticas governamentais, padrões do setor ou requisitos legais que as nuvens públicas não podem cumprir.
+
+    ->Você não é o proprietário do hardware nem dos serviços e não pode gerenciá-los como deseja
+
+    ->Requisitos de negócios exclusivos, como a necessidade de manter um aplicativo herdado, podem ser difíceis de serem atendidos.
+
+#Nuvem privada
+
+Em uma nuvem privada, você cria um ambiente de nuvem em seu próprio datacenter e fornece acesso de autoatendimento a recursos de computação para os usuários da organização. Isso oferece uma simulação de nuvem pública aos usuários, mas você permanece completamente responsável pela compra e a manutenção do hardware e dos serviços de software que fornece.
+
+#Vantagens
+
+Essa abordagem apresenta várias vantagens:
+
+    ->Você pode garantir que a configuração é compátivel com qualquer cenário ou aplicativo herdado
+
+    ->Você tem controle (e responsabilidade) sobre a segurança
+
+    ->As nuvens privadas podem atender a requisitos rigorosos de segurança, de conformidade ou legais
+
+#Desvantagens
+
+Algumas razões pelas quais as equipes deixam de usar a nuvem privada são:
+
+    -> Há alguns custos inicias de CapEx e você precisa comprar o hardware para inicialização e manutenção
+
+    -> A propriedade do equipamento limita a agilidade. Para dimensionar, você precisa comprar, instalar e configurar o novo hardware.
+
+    -> As nuvens privadas exigem competências e habilidades de TI que são difíceis de encontrar
+
+ Um cenário de caso de uso de uma nuvem privada seria quando uma organização tem dados que não podem ser colocados na nuvem pública, talvez por motivos legais. Outro exemplo de cenário pode ser quando a política do governo requer que dados específicos sejam mantidos no país ou de forma privada.
+
+ Uma nuvem privada também pode fornecer funcionaldiades de nuvem para clientes externos ou departamentos internos específicos, como Contabilidade ou Recursos Humanos.
+
+ #Nuvem híbrida
+
+ Uma nuvem híbrida combina nuvens públicas e privadas, permitindo que você execute sesus aplicativos na localização mais apropriada. Por exemplo, você poderia hospedar um site na nuvem pública e vinculá-lo a um banco de dados altamente seguro hospedado na nuvem privada ( ou no datacenter local).
+ Isso é útil quando há algumas coisas que não podem ser colocadas na nuvem, talvez por motivos legais. Por exemplo, talvez você tenha alguns dados específicos que não possam ser expostos publicamente(como dados médicos) e precisem ser mantidos em seu datacenter privado. Outro exemplo é um ou mais aplicativos que são executados em um hardware antigo que não pode ser atualizado. Nesse caso, você pode manter o sistema antigo em execução lcoalmente e conectá-lo à nuvem para autorização ou armazenamento.
+
+ #Vantagens
+
+ Algumas vantagens de uma nuvem híbrida são:
+
+    -> Você pode manter qualquer sistema em execução e acessível que use um hardware ou um sistema operacional desatualizado.
+
+    -> Você tem flexibilidade em relação ao que executa localmente ou na nuvem
+
+    -> Você poderá usufruir das economias de escala dos provedores de nuvem pública para serviços e recursos quando eles forem mais baratos e, em seguida, complementar com seu próprio equipamento quando não forem.
+
+    -> Você pode usar seu próprio equipamento para atender a cenários de segurança, conformidade ou herdados nos quais precisa controlar totalmente o ambiente.
+
+ #Desvantagens
+
+ Algumas preocupações que você deverá ter em mente são:
+
+    -> Ela pode ser mais cara do que selecionar um modelo de implantação, pois envovle um certo custo de CapEx antecipado
+
+    -> Ela pode ser mais complicada de configurar e gerenciar.
+
+#Resumo
+
+A computação em nuvem é flexível e oferece a capacidade de escolher como você deseja implantá-la. O modelo de implantação de nuvem que você escolhe depende de seu orçamento e de suas necessidades de segurança, escalabilidade e manutenção.
+
+
+
+
+
