@@ -125,3 +125,7 @@ O crescimento e a demanda podem ser imprevisíveis e podem superar a expectativa
 conforme mostrado no grafo a seguir.
 
 ![grafo](https://github.com/renatorocker1337/Estudos/blob/main/grafo%20despesas%20capex%20e%20opex.png)
+
+Com o modelo de OpEx, as empresas que desejam experimentar um novo produto ou serviço não precisam investir em equipamentos. Em vez disso, elas pagam mais ou menos pela infraestrutura, conforme necessário.
+
+O OpEx é particularmente interessante se a demanda flutua ou é desconhecida. Os serviços de nuvem são geralmente considerados ágeis. A agilidade da nuvem é a capacidade de alterar rapidamente uma infraestrutura de TI para adaptá-la às mudanças nas necessidades dos negócios. Por exemplo, se há um pico do serviço em um mês, você pode dimensioná-lo de acordo com a demanda e pagar uma fatura maior nesse mês. Se no mês seguinte a demanda diminui, você pode reduzir os recursos usados e pagar menos. Essa agilidade permite que você gerencie seus custos dinamicamente, otimizando os gastos de acordo com as mudanças dos requisitos.
