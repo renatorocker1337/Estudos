@@ -1,4 +1,4 @@
-Estudos Azure
+<h1>Estudos para certificação Azure AZ900</h1>
 
 <h1>Conceitos de Nuvem - Princípios da computação em nuvem</h1>
 
@@ -130,18 +130,18 @@ Com o modelo de OpEx, as empresas que desejam experimentar um novo produto ou se
 
 O OpEx é particularmente interessante se a demanda flutua ou é desconhecida. Os serviços de nuvem são geralmente considerados ágeis. A agilidade da nuvem é a capacidade de alterar rapidamente uma infraestrutura de TI para adaptá-la às mudanças nas necessidades dos negócios. Por exemplo, se há um pico do serviço em um mês, você pode dimensioná-lo de acordo com a demanda e pagar uma fatura maior nesse mês. Se no mês seguinte a demanda diminui, você pode reduzir os recursos usados e pagar menos. Essa agilidade permite que você gerencie seus custos dinamicamente, otimizando os gastos de acordo com as mudanças dos requisitos.
 
-#Modelos de implantação em nuvem
+<h1>Modelos de implantação em nuvem</h1>
 
 Há três modelos diferentes de implantanção na nuvem. Um modelo de implantação na nuvem define o local
 em que os dados são armazenados e como os clientes interagem com eles - como eles o acessam e em qual local os aplicativos são executos? Ele também depende do quanto de sua própria infraestrutura você deseja ou precisa gerenciar.
 
-#Nuvem pública
+<h1>Nuvem pública</h1>
 
 Esse é o modelo de implantação mais comum. Nesse caso, você não tem nenhum hardware local que precisa ser gerenciado ou atualizado: tudo é executado no hardware do provedor de nuvem. Em alguns casos, você pode reduzir custos adicionais por meio do compartilhamento de recursos de computação com outros usuários da nuvem.
 
 Os negócios podem usar vários provedores de nuvem publica de escala variável. O Microsoft Azure é um exemplo de provedor de nuvem publica.
 
-#Vantagens
+<h1>Vantagens</h1>
 
     -> Agilidade/alta escalabilidade - você não precisa comprar um novo servidor para dimensionar
 
@@ -153,7 +153,7 @@ Os negócios podem usar vários provedores de nuvem publica de escala variável.
 
 Um cenário de caso de uso comum é implantar um aplicativo Web ou um site de blog no hardware e nos recursos que pertencem a um provedor de nuvem. O uso de uma nuvem pública nesse cenário permite que os usuários da nuvem coloquem o site ou o blog rapidamente online, em seguinda, concentrem-se em manter o site sem precisar se preocupar com a compra, o gerenciamento ou a manutenção do hardware no qual ele é executado.
 
-#Desvantagens
+<h1>Desvantagens</h1>
 
 Nem todos os cenários são adequados para a nuvem pública. Aqui estão algumas desvantagens a serem consideradas:
 
@@ -165,11 +165,11 @@ Nem todos os cenários são adequados para a nuvem pública. Aqui estão algumas
 
     ->Requisitos de negócios exclusivos, como a necessidade de manter um aplicativo herdado, podem ser difíceis de serem atendidos.
 
-#Nuvem privada
+<h1>Nuvem privada</h1>
 
 Em uma nuvem privada, você cria um ambiente de nuvem em seu próprio datacenter e fornece acesso de autoatendimento a recursos de computação para os usuários da organização. Isso oferece uma simulação de nuvem pública aos usuários, mas você permanece completamente responsável pela compra e a manutenção do hardware e dos serviços de software que fornece.
 
-#Vantagens
+<h1>Vantagens</h1>
 
 Essa abordagem apresenta várias vantagens:
 
@@ -179,7 +179,7 @@ Essa abordagem apresenta várias vantagens:
 
     ->As nuvens privadas podem atender a requisitos rigorosos de segurança, de conformidade ou legais
 
-#Desvantagens
+<h1>Desvantagens</h1>
 
 Algumas razões pelas quais as equipes deixam de usar a nuvem privada são:
 
@@ -193,12 +193,12 @@ Algumas razões pelas quais as equipes deixam de usar a nuvem privada são:
 
  Uma nuvem privada também pode fornecer funcionaldiades de nuvem para clientes externos ou departamentos internos específicos, como Contabilidade ou Recursos Humanos.
 
- #Nuvem híbrida
+ <h1>Nuvem híbrida</h1>
 
  Uma nuvem híbrida combina nuvens públicas e privadas, permitindo que você execute sesus aplicativos na localização mais apropriada. Por exemplo, você poderia hospedar um site na nuvem pública e vinculá-lo a um banco de dados altamente seguro hospedado na nuvem privada ( ou no datacenter local).
  Isso é útil quando há algumas coisas que não podem ser colocadas na nuvem, talvez por motivos legais. Por exemplo, talvez você tenha alguns dados específicos que não possam ser expostos publicamente(como dados médicos) e precisem ser mantidos em seu datacenter privado. Outro exemplo é um ou mais aplicativos que são executados em um hardware antigo que não pode ser atualizado. Nesse caso, você pode manter o sistema antigo em execução lcoalmente e conectá-lo à nuvem para autorização ou armazenamento.
 
- #Vantagens
+ <h1>Vantagens</h1>
 
  Algumas vantagens de uma nuvem híbrida são:
 
@@ -210,7 +210,7 @@ Algumas razões pelas quais as equipes deixam de usar a nuvem privada são:
 
     -> Você pode usar seu próprio equipamento para atender a cenários de segurança, conformidade ou herdados nos quais precisa controlar totalmente o ambiente.
 
- #Desvantagens
+ <h1>Desvantagens</h1>
 
  Algumas preocupações que você deverá ter em mente são:
 
@@ -218,7 +218,7 @@ Algumas razões pelas quais as equipes deixam de usar a nuvem privada são:
 
     -> Ela pode ser mais complicada de configurar e gerenciar.
 
-#Resumo
+<h1>Resumo</h1>
 
 A computação em nuvem é flexível e oferece a capacidade de escolher como você deseja implantá-la. O modelo de implantação de nuvem que você escolhe depende de seu orçamento e de suas necessidades de segurança, escalabilidade e manutenção.
 
