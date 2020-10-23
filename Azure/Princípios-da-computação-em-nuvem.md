@@ -223,6 +223,29 @@ Algumas razões pelas quais as equipes deixam de usar a nuvem privada são:
 A computação em nuvem é flexível e oferece a capacidade de escolher como você deseja implantá-la. O modelo de implantação de nuvem que você escolhe depende de seu orçamento e de suas necessidades de segurança, escalabilidade e manutenção.
 
 
+<h1>Tipos de serviços de nuvem</h1>
+
+Ao falar sobre computação em nuvem, há três categorias principais. É importante compreendê-las, porque elas são usadas em conversas, na documentação e em treinamento.
+
+<h1> Explorar as três categorias de computação em nuvem</h1>
+
+<h2> IaaS vs. SaaS vs. PaaS </h2>
+
+<h2> IaaS (infraestrutura como serviço)
+
+A infraestrutura como serviço é a categoria mais flexível dos serviços de nuvem. Ela tem o objetivo de fornecer a você o máximo de controle sobre o hardware fornecido que executa seu aplicativo, como os servidores de infraestrutura de TI e as VMs (máquinas virtuais), o armazenamento e os sistemas operacionais. Com a IaaS, você aluga o hardware em vez de comprá-lo, Trata-se de uma infraestrutura de computação instantânea, provisionada e gerenciada pela internet.
+
+Ao usar a IaaS, a garantia de que um serviço esteja em funcionamento é uma responsabilidade compartilhada: o provedor de nuvem é responsável por garantir que a infraestrutura de nuvem esteja funcionando corretamente e o cliente de nuvem é responsável por garantir que o serviço usado esteja configurado corretamente, atualizado e disponível para seus clientes. Isso é conhecido como modelo de responsabilidade compartilhada.
+
+A IaaS geralmente é usada nos seguintes cenários:
+
+    -> Cargas de trabalho em migração. Normalmente os recursos de IaaS são gerenciados da mesma forma que a infraestrutura local e fornecem um caminho de migração fácil para mover aplicativos existentes para a nuvem.
+
+    ->Teste e desenvolvimento. As equipes podem configurar e desmontar rapidamente ambientes de teste e desenvolvimento, entregando novos aplicativos ao mercado com mais rapidez. A IaaS torna o desenvolvimento em escala e os ambientes de teste mais rápidos e econômicos.
+
+    ->Armazenamento, backup e recuperação. As organizações evitam o gasto de capital e a complexidade do gerenciamento de armazenamento, que normalmente exige uma equipe experiente para gerenciar dados e atender aos requisitos legais e a conformidade. A IaaS é útil para gerenciar demandas imprevisíveis e necessidades de armazenamento com crescimento constante. A IaaS também pode simplificar o planejamento e o gerencimaneto de sistemas de backup e recuperação.
+
+
 
 
 
