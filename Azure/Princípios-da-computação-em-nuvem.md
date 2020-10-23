@@ -231,7 +231,7 @@ Ao falar sobre computação em nuvem, há três categorias principais. É import
 
 <h2> IaaS vs. SaaS vs. PaaS </h2>
 
-<h2> IaaS (infraestrutura como serviço)
+<h2> IaaS (infraestrutura como serviço)</h2>
 
 A infraestrutura como serviço é a categoria mais flexível dos serviços de nuvem. Ela tem o objetivo de fornecer a você o máximo de controle sobre o hardware fornecido que executa seu aplicativo, como os servidores de infraestrutura de TI e as VMs (máquinas virtuais), o armazenamento e os sistemas operacionais. Com a IaaS, você aluga o hardware em vez de comprá-lo, Trata-se de uma infraestrutura de computação instantânea, provisionada e gerenciada pela internet.
 
