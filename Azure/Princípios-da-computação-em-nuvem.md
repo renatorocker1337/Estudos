@@ -239,11 +239,11 @@ Ao usar a IaaS, a garantia de que um serviço esteja em funcionamento é uma res
 
 A IaaS geralmente é usada nos seguintes cenários:
 
-    -> Cargas de trabalho em migração. Normalmente os recursos de IaaS são gerenciados da mesma forma que a infraestrutura local e fornecem um caminho de migração fácil para mover aplicativos existentes para a nuvem.
+Cargas de trabalho em migração. Normalmente os recursos de IaaS são gerenciados da mesma forma que a infraestrutura local e fornecem um caminho de migração fácil para mover aplicativos existentes para a nuvem.
 
-    ->Teste e desenvolvimento. As equipes podem configurar e desmontar rapidamente ambientes de teste e desenvolvimento, entregando novos aplicativos ao mercado com mais rapidez. A IaaS torna o desenvolvimento em escala e os ambientes de teste mais rápidos e econômicos.
+Teste e desenvolvimento. As equipes podem configurar e desmontar rapidamente ambientes de teste e desenvolvimento, entregando novos aplicativos ao mercado com mais rapidez. A IaaS torna o desenvolvimento em escala e os ambientes de teste mais rápidos e econômicos.
 
-    ->Armazenamento, backup e recuperação. As organizações evitam o gasto de capital e a complexidade do gerenciamento de armazenamento, que normalmente exige uma equipe experiente para gerenciar dados e atender aos requisitos legais e a conformidade. A IaaS é útil para gerenciar demandas imprevisíveis e necessidades de armazenamento com crescimento constante. A IaaS também pode simplificar o planejamento e o gerencimaneto de sistemas de backup e recuperação.
+Armazenamento, backup e recuperação. As organizações evitam o gasto de capital e a complexidade do gerenciamento de armazenamento, que normalmente exige uma equipe experiente para gerenciar dados e atender aos requisitos legais e a conformidade. A IaaS é útil para gerenciar demandas imprevisíveis e necessidades de armazenamento com crescimento constante. A IaaS também pode simplificar o planejamento e o gerencimaneto de sistemas de backup e recuperação.
 
 
 
