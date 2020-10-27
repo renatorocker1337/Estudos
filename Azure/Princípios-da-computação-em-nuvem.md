@@ -245,6 +245,26 @@ Teste e desenvolvimento. As equipes podem configurar e desmontar rapidamente amb
 
 Armazenamento, backup e recuperação. As organizações evitam o gasto de capital e a complexidade do gerenciamento de armazenamento, que normalmente exige uma equipe experiente para gerenciar dados e atender aos requisitos legais e a conformidade. A IaaS é útil para gerenciar demandas imprevisíveis e necessidades de armazenamento com crescimento constante. A IaaS também pode simplificar o planejamento e o gerencimaneto de sistemas de backup e recuperação.
 
+<h1> PaaS(plataforma como serviço)
+
+O PaaS fornece um ambiente para criação, teste e implantação de aplciativos de software. A meta da PaaS é ajudar você a criar um aplicativo rapidamente sem a necessidade de gerenciar a infraestrutura subjacente. Por exemplo, ao implantar um aplciativo web usando o PaaS, você não precisa instalar um sistema operacional, um servidor Web e nem mesmo as atualizações do sistema.
+
+O PaaS é um ambiente de desenvolvimento e implantação completo na nuvem, com recursos que permitem que as organizações forneçam tudo, desde aplicativos simples baseados em nuvem até aplicativos empresariais sofisticados habilitados para a nuvem. Os recursos são comprados de um provedor de serviços de nuvem no modelo pago conforme o uso e acessados por uma conexão segura com a internet.
+
+O PaaS geralmente é usado nos seguintes cenários:
+
+-> Estrutura de desenovlvimento. O PaaS fornece uma estrutura que os desenvolvedores podem usar como base para desenvolver ou personalizar aplicativos baseados em nuvem. Assim como uma macro do Microsoft Excel, o PaaS permite que os desenvolvedores criem aplicativos, usando componentes internos de software. São incluídos recursos de nuvem, como escalabilidade, alta disponibilidade e a funcionalidade de multilocatário, reduzindo a quantidade de codificação que os desenvolvedores precisam realizar.
+
+-> Análise ou business intelligence. As ferramentas fornecidas como serviço com o PaaS permitem que as organizações analisem e minerem seus dados. Elas podem encontrar insights e padrões e prever resultados para aprimorar decisões de negócios, como previsões, designs de produtos e retornos sobre investimentos.
+
+<h1> SaaS(software como serviço)
+
+SaaS é um software que é hospedado e gerenciado centralmente para o cliente final. Geralmente, ele se baseia em uma arquitetura em que uma versão do aplicatio é usada para todos os clientes e licensiada por meio de uma assinatura mensal ou anual. O Microsoft 365, o Skype e o Dynamics CRM Online são exemplos perfeitos de softwares SaaS.
+
+![grafo](https://github.com/renatorocker1337/Estudos/blob/main/imagem%20custo%20e%20propriedade%20tipos%20de%20servi%C3%A7o.png)
+
+
+
 
 
 
