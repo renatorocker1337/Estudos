@@ -245,7 +245,7 @@ Teste e desenvolvimento. As equipes podem configurar e desmontar rapidamente amb
 
 Armazenamento, backup e recuperação. As organizações evitam o gasto de capital e a complexidade do gerenciamento de armazenamento, que normalmente exige uma equipe experiente para gerenciar dados e atender aos requisitos legais e a conformidade. A IaaS é útil para gerenciar demandas imprevisíveis e necessidades de armazenamento com crescimento constante. A IaaS também pode simplificar o planejamento e o gerencimaneto de sistemas de backup e recuperação.
 
-<h1> PaaS(plataforma como serviço)
+<h1> PaaS(plataforma como serviço)</h1>
 
 O PaaS fornece um ambiente para criação, teste e implantação de aplciativos de software. A meta da PaaS é ajudar você a criar um aplicativo rapidamente sem a necessidade de gerenciar a infraestrutura subjacente. Por exemplo, ao implantar um aplciativo web usando o PaaS, você não precisa instalar um sistema operacional, um servidor Web e nem mesmo as atualizações do sistema.
 
@@ -257,11 +257,35 @@ O PaaS geralmente é usado nos seguintes cenários:
 
 -> Análise ou business intelligence. As ferramentas fornecidas como serviço com o PaaS permitem que as organizações analisem e minerem seus dados. Elas podem encontrar insights e padrões e prever resultados para aprimorar decisões de negócios, como previsões, designs de produtos e retornos sobre investimentos.
 
-<h1> SaaS(software como serviço)
+<h1> SaaS(software como serviço)</h1>
 
 SaaS é um software que é hospedado e gerenciado centralmente para o cliente final. Geralmente, ele se baseia em uma arquitetura em que uma versão do aplicatio é usada para todos os clientes e licensiada por meio de uma assinatura mensal ou anual. O Microsoft 365, o Skype e o Dynamics CRM Online são exemplos perfeitos de softwares SaaS.
 
 ![grafo](https://github.com/renatorocker1337/Estudos/blob/main/imagem%20custo%20e%20propriedade%20tipos%20de%20servi%C3%A7o.png)
+
+<h1> Responsabilidades de gerenciamento</h1>
+
+Uma coisa que deve ser compreendida é que essas categorias são camadas sobrepostas. Por exemplo, o PaaS adiciona uma camada sobre a IaaS, fornecendo um nível de abstração. A abstração tem a vantagem  de ocultar os detalhes com os quais você talvez não se preocupe, para que possa começar a codificar mais rapidamente. No entanto, um aspecto da abstração é que se tem menos controle sobbre o hardware subjacente. A ilustração a seguir mostra uma lista de recursos que você gerencia e que seu provedor de serviços gerencia em cada categoria de serviço de nuvem.
+
+![grafo](https://github.com/renatorocker1337/Estudos/blob/main/responsabilidade%20de%20gerenciamento.png)
+
+-> A Iaas requer o máximo de gerenciamento do usuário entre todos os serviços de nuvem. O usuário é responsável por gerenciar os sistemas operacionais, os dados e os aplicativos.
+
+-> O PaaS requer menos gerenciamento do usuário. O provedor de nuvem gerencia os sistemas operacionais e o usuário é responsável pelos aplicativos e dados que executa e armazena.
+
+-> O Saas requer o mínimo de gerenciamento. O provedor de nuvem é responsável por gerenciar tudo, e o usuário final apenas usa o software.
+
+<h1> Combine serviços de nuvem para atender às suas necessidades.</h1>
+
+IaaS, PaaS e SaaS contêm diferentes níveis de serviços gerenciados. Você pode usar facilmente uma combinação desses tipos de infraestrutura. Você pode uasr o Microsfot 365 nos computadores da empresa (SaaS) e, no Azure, hospedar suas VMs(IaaS) e usar o Banco de Dados SQL no Azure (PaaS) para armazenar os dados. Com a flexibilidade da nuvem, você pode usar qualquer combinação que forneça o melhor resultado.
+
+<h1> Verificação de Conhecimentos </h1>
+
+![grafo](https://github.com/renatorocker1337/Estudos/blob/main/verificando%20os%20conhecimentos%20do%20m%C3%B3dulo%20principios%20da%20computa%C3%A7%C3%A3o%20em%20nuvem..png)
+
+
+
+
 
 
 
