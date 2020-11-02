@@ -83,3 +83,55 @@ Zonas de disponibilidade são datacenters separados fisicamente dentro de uma re
 Cada Zona de Disponibilidade é comporta por um ou mais datacneters equipados com energia, resfriamento e rede independentes. Ela é configurada para ser um _limite de isolamento_. Se uma zona ficar inativa, as outras continuarão funcionando. Zonas de Disponibilidade são conectadas por meio de redes óptica privadas de alta velocidade.
 
 ![grafo](https://github.com/renatorocker1337/Estudos/blob/main/Azure/Imagens%20das%20documenta%C3%A7%C3%B5es/Principais%20servi%C3%A7os%20de%20nuvem/zona%20de%20disponibilidade.png)
+
+
+# Regiões compatíveis
+
+Nem todas as regiões têm suporte para Zonas de Disponibilidade. As regiões a seguir têm um mínimo de três zonas separadas para garantir a resiliência.
+
+- Centro dos EUA
+- Leste dos EUA 2
+- Oeste dos EUA 2
+- Europa Ocidental
+- França Central
+- Norte da Europa
+- Sudeste Asiático
+
+## Dica
+
+A lista de regiões com suporte está sendo expandida - verifique a documentação para obter as informações mais recentes.
+
+# Uso de Zonas de Disponibilidade em seus aplicativos
+
+Você pode usar as Zonas de Disponibilidade para executar aplicativos de missão crítica e incorporar alta disponibilidade à arquitetura do aplicativo colocalizando seus recursos de computação, armazenamento, rede e dados dentro de uma zona e replicando em outras zonas. Tenha em mente que pode haver um custo para duplicar seus serviços e transferir dados entre zonas.
+
+As Zonas de Disponibilidade são, principalmente, para VMs, discos gerenciados, balanceadores de carga e bancos de dados SQL. Os serviços do Azure que dão suporte a zonas de Disponibilidade enquadram-se em duas categorias:
+
+- Serviços zonais - você fixa o recurso em uma zona específica(por exemplo, máquinas virtuais, discos gerenciados, endereços IP)
+
+- Serviços com redundância de zona - a plataforma replica automaticamente entre zonas (por exemplo, armazenamento com redundância de zona, Banco de Dados SQL).
+
+Verifique a documentação para determinar quais elementos de sua arquitetura você pode associar a uma Zona de Disponibilidade.
+
+# Noções básicas sobre pares de regiões no Azure
+
+As zonas de disponibilidade são criadas usando um ou mais datacenters e há no mínimo três zonas dentro de uma única região. No entendo, é possível que um desastre grande o suficiente cause uma interrupção grande o suficiente para afetar até mesmo dois datacenters. Por isso, o Azure também cria pares de regiões.
+
+## O que é um par de regiões?
+
+Cada região do Azure é conectada com outra região na mesma geografia (como EUA, Europa ou Ásia) a pelo menos 300 milhas (cerca de 480 km) de distância. Essa abordagem permite a replicação de recursos, como o armazenamento de máquina virtual, em uma geografia, o que ajuda a reduzir a probabilidade de interupções devido a eventos como desastres naturais, conflitos civis, quedas de energia ou interrupções de rede física afetarem as duas regiões ao mesmo tempo. Se uma região em um par de regiões fosse afetada por um desastre natural, por exemplo, os serviços fariam failover automaticamente para outra região nesse par.
+
+Exemplos de pares de regiões no Azure são Oeste dos EUA emparelhado com Leste dos EUA e Sudeste da Ásia emparelhado com o Leste da Ásia.
+
+![grafo](https://github.com/renatorocker1337/Estudos/blob/main/Azure/Imagens%20das%20documenta%C3%A7%C3%B5es/Principais%20servi%C3%A7os%20de%20nuvem/par%20de%20regi%C3%B5es.png)
+
+Uma vez que o par de regiões está diretamente conectado e suficientemente afastado para ser isolado contra desastres regionais, você pode usá-lo para fornecer redundância de dados e serviços confáveis. Alguns serviços oferecem armazenamento com redundância geográfica automática usando pares de regiões.
+
+Outras vantagens dos pares de regiões incluem:
+
+- Se houver uma interrupção ampla do Azure, uma região de cada par será priorizada para que pelo menos uma seja restaurada o quanto antes para os aplicativos hospedados nesse par de regiões.
+- As atualizações planejadas do Azure são distribuídas para regiões emparelhadas uma por vez, de modo a minimizar o tempo de inatividade e o risco de interrupção dos aplicativos
+
+- Os dados continuam residindo na mesma geografia que seu par (com exceção do Sul do Brasil) para fins de jurisdição do imposto e aplicação da lei.
+
+Ter um conjunto de datacenters distribuído em larga escala permite que o Azure forneça uma garantia de alta disponibilidade.
