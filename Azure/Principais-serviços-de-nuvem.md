@@ -42,14 +42,43 @@ O Azure tem mais regiões globais do que qualquer outro provedor de nuvem. Isso 
 O Azure tem regiões especializadas que talvez você queria usar durante a criação de seus aplicativos para fins de conformidade ou jurídicos. Elas incluem:
 
 
-- [x]US DoD Central, US Gov - Virgínia, US Gov Iowa e muito mais: Essas são instâncias lógicas e físicas do Azure isoladas da rede, destinada a parceiros e órgãos do governo dos EUA. Esses datacenters são operados por cidadãos selecionados dos EUA e incluem certificações de conformidade adicionais.
+- US DoD Central, US Gov - Virgínia, US Gov Iowa e muito mais: Essas são instâncias lógicas e físicas do Azure isoladas da rede, destinada a parceiros e órgãos do governo dos EUA. Esses datacenters são operados por cidadãos selecionados dos EUA e incluem certificações de conformidade adicionais.
 
-- [x]Leste da china, Norte da china e muito mais: Essas regiões estão disponíveis por meio de uma parceria exclusiva entre a Microsoft e a 21Vianet, segundo a qual a Microsoft não mantém diretamente os data centers.
+- Leste da china, Norte da china e muito mais: Essas regiões estão disponíveis por meio de uma parceria exclusiva entre a Microsoft e a 21Vianet, segundo a qual a Microsoft não mantém diretamente os data centers.
 
-As regiões são o que você usa para identificar a localização de seus recursos, mas há dois outros termos aos quais você também deve estar atento: geografias e zonas de disponibilidade.
+- As regiões são o que você usa para identificar a localização de seus recursos, mas há dois outros termos aos quais você também deve estar atento: geografias e zonas de disponibilidade.
 
 
 <h1> Noções básicas sobre geografias no Azure</h1>
 
 O Azure divide o mundo em geografias definidas por limites geopolíticos ou fronteiras de países. Uma geografia do Azure é um mercado discreto, geralmente contendo duas ou mais regiões que preservam limites de conformidade e de residência de dados. Essa divisão traz vários benefícios.
+
+- As geografias permitem que clientes com necessdiades de conformidade e de residência de dados específicas mantenham seus dados e aplicativos próximos.
+
+- As geografias garantem que os requisitos de residência, de soberania, de conformidade e de resiliência de dados sejam respeitados dentro de limites geográficos.
+
+- Graças à conexão a uma infraestrutura de rede dedicada de alta capacidade, as geografias conseguem resistir a falhas completas de região.
+
+**Dica**
+
+Residência de dados se refere ao local físico ou geográfico dos dados ou das informações de uma organização. Ela define os requisitos legais ou regulamentaraes impostos aos dados com base no país ou na região em que eles residem e é uma consideração importante ao planejar o armazenamento de dados do aplicativo.
+
+<h2> Geografias são dividas nas seguintes áreas:</h2>
+
+- [x] Américas
+- [x] Europa
+- [x] Pacífico Asiático
+- [x] Oriente Médio e África
+
+Cada região pertence a uma única geografia e tem regras específicas de disponibilidade de serviço, conformidade e residência/soberania de dados aplicadas a ela.
+
+# Noções básicas sobre Zonas de Disponobilidade no Azure
+
+É importante verificar se seus serviços e dados são redundantes para que você possa proteger suas informações em caso de falha. Quando você hospeda sua infraestrutura, é necessário duplicar ambientes de hardware. O Azure pode ajudar a tornar seu aplicativo disponível por meio das **Zonas de Disponibilidade.**
+
+# O que é uma Zona de Disponibilidade?
+
+Zonas de disponibilidade são datacenters separados fisicamente dentro de uma região do Azure.
+
+Cada Zona de Disponibilidade é comporta por um ou mais datacneters equipados com energia, resfriamento e rede independentes. Ela é configurada para ser um _limite de isolamento_. Se uma zona ficar inativa, as outras continuarão funcionando. Zonas de Disponibilidade são conectadas por meio de resdes óptica privadas de alta velocidade.
 
