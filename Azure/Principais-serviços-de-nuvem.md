@@ -6,11 +6,11 @@ O Azure fornece uma rede global de datacenters seguros em que você pode implant
 
 Neste módulo será visto:
 
- - [x]Explorar a estrutura física da infraestrutura do Azure
+ - Explorar a estrutura física da infraestrutura do Azure
 
- - [x]Entender os contratos de nível de serviço fornecidos pelo Azure
+ - Entender os contratos de nível de serviço fornecidos pelo Azure
 
- - [x]Saiba como fornecer seus próprios contratos de nível de serviços para aplicativos.
+ - Saiba como fornecer seus próprios contratos de nível de serviços para aplicativos.
 
  <h1> Noções básicas sobre datacenters e regiões no Azure </h1>
 
@@ -30,7 +30,7 @@ Alguns serviços ou recursos de máquina virtual estão disponíveis somente em 
 
 Alguns exemplos de regiões são Oeste dos EUA, Canadá Central, Europa Ocidental, Leste da Austrália e Oeste do Japão. Aqui está uma exibição de todas as regiões disponíveis a partir de fevereiro de 2020:
 
-![grafo](https://github.com/renatorocker1337/Estudos/blob/main/Mapa%20global%20de%20regi%C3%B5es%20do%20Azure%20dispon%C3%ADveis%20a%20partir%20de%20junho%20de%202020.png)
+![grafo](https://github.com/renatorocker1337/Estudos/blob/main/Azure/Imagens%20das%20documenta%C3%A7%C3%B5es/Principais%20servi%C3%A7os%20de%20nuvem/Mapa%20global%20de%20regi%C3%B5es%20do%20Azure%20dispon%C3%ADveis%20a%20partir%20de%20junho%20de%202020.png)
 
 
 <h1> Por que isso é importante?</h1>
@@ -80,5 +80,6 @@ Cada região pertence a uma única geografia e tem regras específicas de dispon
 
 Zonas de disponibilidade são datacenters separados fisicamente dentro de uma região do Azure.
 
-Cada Zona de Disponibilidade é comporta por um ou mais datacneters equipados com energia, resfriamento e rede independentes. Ela é configurada para ser um _limite de isolamento_. Se uma zona ficar inativa, as outras continuarão funcionando. Zonas de Disponibilidade são conectadas por meio de resdes óptica privadas de alta velocidade.
+Cada Zona de Disponibilidade é comporta por um ou mais datacneters equipados com energia, resfriamento e rede independentes. Ela é configurada para ser um _limite de isolamento_. Se uma zona ficar inativa, as outras continuarão funcionando. Zonas de Disponibilidade são conectadas por meio de redes óptica privadas de alta velocidade.
 
+![grafo](https://github.com/renatorocker1337/Estudos/blob/main/Azure/Imagens%20das%20documenta%C3%A7%C3%B5es/Principais%20servi%C3%A7os%20de%20nuvem/zona%20de%20disponibilidade.png)
