@@ -124,7 +124,7 @@ as despesas antes do início de um projeto devido a um orçamento limitado.
 O crescimento e a demanda podem ser imprevisíveis e podem superar a expectativa, o que é um desafio para o modelo de CapEx,
 conforme mostrado no grafo a seguir.
 
-![grafo](https://github.com/renatorocker1337/Estudos/blob/main/grafo%20despesas%20capex%20e%20opex.png)
+![grafo](https://github.com/renatorocker1337/Estudos/blob/main/Azure/Imagens%20das%20documenta%C3%A7%C3%B5es/Princ%C3%ADpios%20da%20computa%C3%A7%C3%A3o%20em%20nuvem/grafo%20despesas%20capex%20e%20opex.png)
 
 Com o modelo de OpEx, as empresas que desejam experimentar um novo produto ou serviço não precisam investir em equipamentos. Em vez disso, elas pagam mais ou menos pela infraestrutura, conforme necessário.
 
@@ -261,13 +261,13 @@ O PaaS geralmente é usado nos seguintes cenários:
 
 SaaS é um software que é hospedado e gerenciado centralmente para o cliente final. Geralmente, ele se baseia em uma arquitetura em que uma versão do aplicatio é usada para todos os clientes e licensiada por meio de uma assinatura mensal ou anual. O Microsoft 365, o Skype e o Dynamics CRM Online são exemplos perfeitos de softwares SaaS.
 
-![grafo](https://github.com/renatorocker1337/Estudos/blob/main/imagem%20custo%20e%20propriedade%20tipos%20de%20servi%C3%A7o.png)
+![grafo](https://github.com/renatorocker1337/Estudos/blob/main/Azure/Imagens%20das%20documenta%C3%A7%C3%B5es/Princ%C3%ADpios%20da%20computa%C3%A7%C3%A3o%20em%20nuvem/imagem%20custo%20e%20propriedade%20tipos%20de%20servi%C3%A7o.png)
 
 <h1> Responsabilidades de gerenciamento</h1>
 
 Uma coisa que deve ser compreendida é que essas categorias são camadas sobrepostas. Por exemplo, o PaaS adiciona uma camada sobre a IaaS, fornecendo um nível de abstração. A abstração tem a vantagem  de ocultar os detalhes com os quais você talvez não se preocupe, para que possa começar a codificar mais rapidamente. No entanto, um aspecto da abstração é que se tem menos controle sobbre o hardware subjacente. A ilustração a seguir mostra uma lista de recursos que você gerencia e que seu provedor de serviços gerencia em cada categoria de serviço de nuvem.
 
-![grafo](https://github.com/renatorocker1337/Estudos/blob/main/responsabilidade%20de%20gerenciamento.png)
+![grafo](https://github.com/renatorocker1337/Estudos/blob/main/Azure/Imagens%20das%20documenta%C3%A7%C3%B5es/Princ%C3%ADpios%20da%20computa%C3%A7%C3%A3o%20em%20nuvem/responsabilidade%20de%20gerenciamento.png)
 
 -> A Iaas requer o máximo de gerenciamento do usuário entre todos os serviços de nuvem. O usuário é responsável por gerenciar os sistemas operacionais, os dados e os aplicativos.
 
@@ -281,7 +281,7 @@ IaaS, PaaS e SaaS contêm diferentes níveis de serviços gerenciados. Você pod
 
 <h1> Verificação de Conhecimentos </h1>
 
-![grafo](https://github.com/renatorocker1337/Estudos/blob/main/verificando%20os%20conhecimentos%20do%20m%C3%B3dulo%20principios%20da%20computa%C3%A7%C3%A3o%20em%20nuvem..png)
+![grafo](https://github.com/renatorocker1337/Estudos/blob/main/Azure/Imagens%20das%20documenta%C3%A7%C3%B5es/Princ%C3%ADpios%20da%20computa%C3%A7%C3%A3o%20em%20nuvem/verificando%20os%20conhecimentos%20do%20m%C3%B3dulo%20principios%20da%20computa%C3%A7%C3%A3o%20em%20nuvem..png)
 
 
 
