@@ -4,16 +4,23 @@ let yBolinha = 200;
 let diametro = 15
 let raio = diametro / 2;
 
-//variáveis da velocidade da bolinha
+//velocidade da bolinha
 let velocidadeXBolinha = 6;
 let velocidadeYBolinha = 6;
+let raqueteComprimento = 10;
+let raqueteAltura = 90;
 
 //variáveis da raquete
 
 let xRaquete = 5;
 let yRaquete = 150;
-let raqueteComprimento = 10;
-let raqueteAltura = 90;
+
+//variáveis do oponente
+let xRaqueteOponente = 585
+let yRaqueteOponente = 150
+let velocidadeYOponente; 
+
+let colidiu = false;
 
 function setup() {
   createCanvas(600, 400);
@@ -24,13 +31,13 @@ function draw() {
   mostraBolinha();
   movimentaBolinha();
   verificaColisaoBorda();
-  mostraRaquete();
+  mostraRaquete(xRaquete, yRaquete);
   movimentaMinhaRaquete();
-  
-  
-  
-  //width = largura da tela
-  
+  //verificaColisaoRaquete();
+  verificaColisaoRaquete(xRaquete, yRaquete);
+  mostraRaquete(xRaqueteOponente, yRaqueteOponente);
+  movimentaRaqueteOponente();
+  verificaColisaoRaquete(xRaqueteOponente, yRaqueteOponente);
   
 }
 
@@ -50,19 +57,16 @@ function verificaColisaoBorda(){
     
     velocidadeXBolinha *= -1;
   }
-  
   //heigt = tamanho da tela
-  
   if (yBolinha + raio> height || yBolinha -raio <0) {
     velocidadeYBolinha *= -1
     
   }
   
-  
 }
 
-function mostraRaquete(){
-  rect(xRaquete,yRaquete,raqueteComprimento,raqueteAltura);
+function mostraRaquete(x,y){
+  rect(x,y,raqueteComprimento,raqueteAltura);
   
 }
 
@@ -77,8 +81,22 @@ function movimentaMinhaRaquete(){
 }
 
 function verificaColisaoRaquete(){
-  if (xBolinha - raio < xRaquete + raqueteComprimento && yBolinha - raio < yRaquete + raqueteAltura && yBolinha +  raio > yRaquete) {
+  if (xBolinha - raio < xRaquete + raqueteComprimento && yBolinha - raio < yRaquete + raqueteAltura && yBolinha +  raio > yRaquete){
     velocidadeXBolinha *= -1;
   }
+}
+
+function verificaColisaoRaquete(x, y){
+  colidiu = collideRectCircle(x, y, raqueteComprimento,raqueteAltura,xBolinha,yBolinha,raio);
+  if (colidiu){
+    velocidadeXBolinha *= -1;
+  }  
+}
+
+
+function movimentaRaqueteOponente(){
+  velocidadeYOponente = yBolinha -yRaqueteOponente - raqueteComprimento / 2 -30;
+  yRaqueteOponente += velocidadeYOponente
+  
 }
 
