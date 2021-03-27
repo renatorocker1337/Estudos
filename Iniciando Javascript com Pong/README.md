@@ -8,4 +8,9 @@ Para isso, basta clicar na seta e em seguida fazer upload de arquivo ![grafo](ht
 
 Selecione os arquivos em anexo e confirme ![grafo](https://github.com/renatorocker1337/Estudos/blob/main/Iniciando%20Javascript%20com%20Pong/selecionando-arquivos.png)
 
-Em seguida basta clicar no botão de play e jogar normalmente ![grafo](https://github.com/renatorocker1337/Estudos/blob/main/Iniciando%20Javascript%20com%20Pong/executando-o-jogo.png)
+Em seguida basta clicar no botão de play e jogar normalmente ![grafo](https://github.com/
+renatorocker1337/Estudos/blob/main/Iniciando%20Javascript%20com%20Pong/executando-o-jogo.png)
+
+Uma outra maneira de executar o jogo, é por meio do navagedor, abrindo o arquivo index.html. Para isso, é necessário ter como pré condição um servidor local. Uma maneira de executar o mesmo é por meio da extensão "Five Server", que pode ser utilizada no VS Code ![grafo](https://github.com/renatorocker1337/Estudos/blob/main/Iniciando%20Javascript%20com%20Pong/live-server.jpg)
+
+![grafo](https://github.com/renatorocker1337/Estudos/blob/main/Iniciando%20Javascript%20com%20Pong/jogo-no-navegador.jpg)
